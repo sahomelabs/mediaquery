@@ -1,0 +1,104 @@
+/* Media Queries are solely based/ determined by view height and view width of the screen */
+/* VH and VW ???  */
+/* Screen Percentages */
+/*** Rule Of Thumb:  ALWAYS ALWAYS ALWAYS START WITH MOBILE VIEW*/
+
+/* Desktop View  */
+@media screen and (max-width: 1280px) {
+    body {
+      background-color: red;
+}
+
+@media screen and (max-width: 880px) {
+    body {
+      background-color: grey;
+    }
+    .navbar {
+      border: solid salmon;
+      height: 200px;
+      width: 50vw;
+      color: blue;
+      margin: 1em;
+}
+
+/* Mobile view  */
+@media screen and (max-width: 480px) {
+    body {
+      background-color: black;
+    }
+    .navbar{
+        border:solid salmon;
+        height:200px;
+        width:50vw;
+        color:blue;
+        margin:1em;
+    }
+    .ad{
+        border:solid salmon;
+        display:block;
+        margin:.4em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:center;
+        font-size:12px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .main{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .magic{
+        height:290px;
+        width:390px;
+        border:solid orange;
+        background-image: url('https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2024/collections/dm/24_FRD_MST_61004.tif?croppathe=1_3x2&wid=900');
+        background-size:cover;
+    }
+}
+
+.navbar{
+        border:solid salmon;
+        height:200px;
+        width:50vw;
+        color:blue;
+        margin:1em;
+}
+
+.ad{
+        border:solid lightblue;
+        display:block;
+        margin:.4em;
+}
+    
+.mainPic{
+        height:100px;
+        width:100px;
+}
+
+.desc{
+        color:black;
+        padding:1em;
+        text-align:center;
+        font-size:12px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main{
+        display:flex;
+        flex-wrap:wrap;
+}
+
+.magic{
+        height:290px;
+        width:auto;
+        border:solid orange;
+        background-image: url('https://www.vdm.ford.com/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2024/collections/3-2/24_FRD_MST_61024_desktop.jpg/jcr:content/renditions/cq5dam.web.2160.2160.jpeg');
+        background-size:cover;
+ }
+}
